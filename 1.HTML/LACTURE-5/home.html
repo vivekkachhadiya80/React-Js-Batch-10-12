@@ -5,25 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        header{
+            height: 100px;
+            background-color: yellow;
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+            border:2px solid black;
+
+        }
+        nav{
+            height: 500px;
+            width: 327px;
+            background-color: pink;
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+            display: inline-block;
+            border:2px solid black;
+
+        }
+        main{
+            background-color: yellowgreen;
+            height: 500px;
+            width: 100%;
+            float: right;
+        }
+
+        section{
+            display: flex;
+        }
+        footer{
+            height: 100px;
+            width: 100%;
+            background-color: rgb(112, 112, 244);
+            border:2px solid black;
+
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        article{
+            height: 150px;
+            border:2px solid black;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <header style="position: fixed; top:0; width: 100%;">
-        <div class="navigation" style="background-color: red; padding:20px; display:flex; align-items:center; justify-content: space-between;">
-            <div class="logo" style="display: flex; align-items: center;">
-                <img src="asset/instagram.png" alt="" height="100px" width="100px">
-                <span style="font-size: 30px; font-weight: bold; color:white; margin-left: 50px;">LOGO</span>
-            </div>
-            <div class="navigate">
-                <nav>
-                    <a href="Lecture-7.html" class="link-1">Home</a>
-                    <a href="pages.html">Pages</a>
-                    <a href="about.html">About</a>
-                    <a href="#">Contect</a>
-                    <a href="#">Blogs</a>
-                    <a href="#">Other</a>
-                </nav>
-            </div>
-        </div>
-    </header>
+    <header>Header</header>
+    <section>
+        <nav>Navbar</nav>
+        <main>
+            <article></article>
+            <article></article>
+            <article></article>
+        </main>
+    </section>
+    <footer></footer>
 </body>
 </html>
