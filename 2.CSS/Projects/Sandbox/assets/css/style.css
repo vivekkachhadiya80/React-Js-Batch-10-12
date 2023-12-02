@@ -1,0 +1,8 @@
+.navigation{
+    display: flex;
+    align-items:center ;
+}
+
+.nav-items nav ul li , .social-icons ul li{
+    display: inline;
+}
