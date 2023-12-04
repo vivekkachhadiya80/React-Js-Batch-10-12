@@ -42,11 +42,11 @@ p{
 
 /* Universal selector */
 
-*{
+/* *{
     height: 200px;
     background-color: green;
     border:2px solid blue;
-}
+} */
 
 
 /* simple tag selector*/
@@ -56,29 +56,71 @@ p{
 /* Multipal Class Selector */
 
 
+/* .para-1{
+    background-color: green;
+    color:blue;
+    text-decoration: underline;
+}
+.para-2{
+    letter-spacing: 20px;
+}
+.para-3{
+    background-color: green;
+    color:blue;
+    text-decoration: underline;
+} */
+
+
+
 /*css id selector*/
 
-
-
+/* #para-1{
+    background-color: green;
+    color:blue;
+    text-decoration: underline;
+}
+#para-2{
+    letter-spacing: 20px;
+}
+#para-3{
+    background-color: green;
+    color:blue;
+    text-decoration: underline;
+}
+ */
 
 /* Examples Combinator selector */
 
 /* Descendent selector */
 
+.box{
+
+}
+.mainbox .box{
+
+}
+
 
 /* child selector */
 
+.mainbox > .box{
 
+}
 
 /* adjuacent sibling selector*/
 
-
+/* .mainbox-1 + h1{
+    background-color: red;
+} */
 
 
 /* general sibling selector*/
 
+/* .mainbox-1 ~ p{
+    background-color: red;
+} */
 
-/* link selector */
+/* Link Selector */
 
 /* 
     link
@@ -87,18 +129,19 @@ p{
     visited
 */
 
-/* a:link{
-    color:red;
+
+a:link{
+    background-color: green;
 }
 a:active{
-    color:green;
+    background-color: blue;
 }
 a:hover{
-    color:brown;
+    background-color: yellow;
 }
 a:visited{
-    color:pink;
-} */
+    background-color: black;
+}
 
 
 

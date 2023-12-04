@@ -4,6 +4,19 @@ body{
 
 /* css color */
 
+.rgba{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(
+        25,55,255,0);
+}
+
+.hex{
+    height: 300px;
+    width: 300px;
+    background-color:#0000ff ;
+}
+
 
 
 
