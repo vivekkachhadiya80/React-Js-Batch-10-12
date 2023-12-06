@@ -94,17 +94,17 @@ body{
     background: repeating-linear-gradient(-30deg, yellow, yellow 10%, black 10%, black 20% );
 } */
 
-.conic{
+/* .conic{
     height: 400px;
     width: 400px;
     background-color: red;
-    /* background-image: conic-gradient(red, rgb(0, 255, 30), rgb(128, 0, 102)); */
+    background-image: conic-gradient(red, rgb(0, 255, 30), rgb(128, 0, 102));
     background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
-} 
+}  */
 
 
 
-/* css border properties */
+/* Css Border Properties */
 
 /* css border types
     solid
@@ -119,14 +119,122 @@ body{
     groove
 */
 
-
-
-
+/* .solid{
+    width: 100px;
+    height: 400px;
+    background-color: orange;
+    border:10px solid green;
+}
+.dotted{
+    width: 100px;
+    height: 450px;
+    background-color: orange;
+    border:10px dotted green;
+}
+.dashed{
+    width: 100px;
+    height: 500px;
+    background-color: orange;
+    border:10px dashed green;
+}
+.double{
+    width: 100px;
+    height: 550px;
+    background-color: orange;
+    border:10px double green;
+}
+.hidden{
+    width: 100px;
+    height: 600px;
+    background-color: orange;
+    border:10px hidden green;
+}
+.none{
+    width: 100px;
+    height: 600px;
+    background-color: orange;
+    border:10px none green;
+}
+.ridge{
+    width: 100px;
+    height: 550px;
+    background-color: orange;
+    border:10px ridge green;
+}
+.inset{
+    width: 100px;
+    height: 500px;
+    background-color: orange;
+    border:10px inset green;
+}
+.inset{
+    width: 100px;
+    height: 500px;
+    background-color: orange;
+    border:10px inset green;
+}
+.groove{
+    width: 100px;
+    height: 400px;
+    background-color: orange;
+    border:10px groove green;
+} */
+/* 
+.border{
+    height: 300px;
+    width: 300px;
+    border:20px solid green;
+    border-top:30px solid red;
+    border-right:40px dashed blue;
+    border-right-color:orange;
+    border-top-style:dotted;
+} */
 
 /* border radius */
 
+/* .maindiv{
+    position: relative;
+}
 
+.border-radius{
+    height: 400px;
+    width: 400px;
+    border:10px solid green;
+    border-radius: 20px;
+    border-radius: 20px 40px;
+    border-radius: 20px 40px 60px;
+    border-radius: 20px 40px 60px 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.border-radius img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+}
+.circle{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 2;
+    border-radius: 100%;
+    overflow: hidden;
+    border:10px solid white;
+}
 
+.circle img{
+    height: 200px;
+    width: 200px;
+} */
 
 /* css outline properties */
 
@@ -135,56 +243,22 @@ outline:none;
 outline:width style color;
 */
 
+/* .outline{
+    height: 200px;
+    width: 200px;
+    border:10px solid orange;
+    margin: 200px;
+    outline: 10px dotted green;
+    outline-offset: 10px    ;
+} */
 
+/* Css Opacity */
 
-
-
-
-/* css opacity */
-
-
-
-
-/* css button */
-
-/* button tag */
-
-div{
-    padding: 100px;
+.opacity{
+    height: 300px;
+    width: 300px;
+    background-color: rgba(255,0,0,0.5);
 }
-
-
-button , input , a{
-    background-color: gray;
-    text-decoration: none;
-    border:0;
-    padding: 10px 40px;
-    color:blueviolet;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 20px;
-    border:1px solid blueviolet;
-}
-
-button:hover , input:hover{
-    background-color: blueviolet;
-    color:white;
-    transform: translateY(-10px);
-    transition: 1s;
-}
-span:hover a{
-    background-color: blueviolet;
-    color:white;
-}
-span a{
-    display: inline-block;
-    transition: 1s;
-}
-a:hover{
-    transform: translateY(-10px);
-}
-
-
 
 
 
