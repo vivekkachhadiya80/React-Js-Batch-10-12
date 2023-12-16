@@ -3,9 +3,7 @@ body{
 }
 /* Css Pseudo Class */
 
-*{
-    height: 50px;
-}
+
 
 /*
 
@@ -46,8 +44,12 @@ body{
     [attr*=value]
 
 */
-/* 
-a[href="www.google.com"]{
+/* a[href]{
+    background-color: red;
+    text-decoration: none;
+} */
+
+/* a[href="www.google"]{
     background-color: yellow;
 }
 
@@ -55,11 +57,26 @@ a[href="www.facebook.com"]{
     background-color: red;
 }
 
-div[class*="x"]{
+
+a[target="_blank"]{
+    text-decoration: none;
+} */
+
+/* span[class~="box-1"]{
     height: 100px;
+    width: 200px;
+    display: inline-block;
     background-color:green;
     border:2px solid red;
 } */
+
+/* div[class*="1"]{
+    height: 100px;
+    width: 200px;
+    background-color:green;
+    border:2px solid red;
+} */
+
 
 
 
@@ -70,14 +87,29 @@ div[class*="x"]{
 
 /* css after and before */
 
+
 /* .box{
     height: 200px;
     width: 200px;
     background-color: blue;
-    position: relative;
 }
 
 .box::after{
+    content: "sjdbncjdskacjsda";
+}
+
+h1{
+    margin: 0;
+}
+
+h1::after{
+    content: '+';
+    position: absolute;
+    right: 0;
+} */
+
+
+/* .box::after{
     content:"";
     height: 300px;
     width: 300px;
@@ -90,10 +122,21 @@ div[class*="x"]{
 } */
 
 
-p::selection{
-    /* font-size: 50px; */
+/* p::selection{
+    font-size: 100px;
     color:blueviolet;
     text-decoration: underline;
     background-color: yellow;
+} */
+
+p::first-letter{
+    font-size: 50px;
+    color:orange;
 }
+
+p::first-line{
+    font-size: 50px;
+    color:orange;
+}
+
 
