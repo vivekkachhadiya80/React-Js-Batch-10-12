@@ -58,7 +58,7 @@ body{
 } */
 
 
-.d-none{
+/* .d-none{
     background-color: gray;
     border:2px solid black;
     height: 200px;
@@ -68,4 +68,37 @@ body{
 .maindiv{
         display: grid;
         grid-template-columns: auto auto auto auto;
-    }
+    } */
+
+
+
+.maindiv{
+    height: 500px;
+    width: 1000px;
+    background-color: gray;
+    border:1px solid black;
+    display: flex;
+}
+
+.maindiv div{
+    flex:1 0 0%;
+}
+.maindiv div:nth-child(1){
+    background-color: red;
+    flex-shrink:8;
+}
+.maindiv div:nth-child(2){
+    background-color: green;
+}
+.maindiv div:nth-child(3){
+    background-color: pink;
+}
+.maindiv div:nth-child(4){
+    background-color: orange;
+}
+.maindiv div:nth-child(5){
+    background-color: yellow;
+}
+.maindiv div:nth-child(6){
+    background-color: blue;
+}
