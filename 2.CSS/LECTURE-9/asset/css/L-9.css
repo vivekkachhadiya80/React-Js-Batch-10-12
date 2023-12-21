@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}
+
+/* css Position */
+
+
+
+/* Z-index Propeties */
+
+
+/* .box-3{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    position: absolute;
+    z-index: -2;
+} */
+
+ /* float properties */
+
+ /* nav{
+    position: fixed;
+    background-color: blue;
+    padding: 20px 40px;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    z-index: 100;
+ }
+
+ ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+ }
+
+ ul li{
+    list-style-type: none;
+ }
+
+ ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+ }
+
+ section{
+    margin-bottom: 100px;
+}
+
+.box-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.section-text-1 h1{
+    font-size: 70px;
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+
+.section-text-1 p{
+    font-size: 22px;
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+
+.section-text-1 a{
+    background-color: blue;
+    padding: 20px 40px;
+    color:white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.section-img-1{
+    width: 600px;
+    height: auto;
+}
+
+.section-img-1 img{
+    width: inherit;
+    height: auto;
+}
+
+.section-text-2 h1{
+    font-size: 70px;
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+
+.section-text-2 p{
+    font-size: 22px;
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+
+.section-text-2 a{
+    background-color: blue;
+    padding: 20px 40px;
+    color:white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.section-img-2{
+    width: 600px;
+    height: auto;
+}
+
+.section-img-2 img{
+    width: inherit;
+    height: auto;
+}
+
+.sticky-content{
+    position: sticky;
+    height: 200px;
+    background-color:green;
+    top: 200px;
+} */
+
+
+
+
+
+
+
+
+
+/* css clear properties */
+
+
+
+
+/* overflow properties */
+
+/* 
+textarea{
+    resize: vertical;
+} */
+
+
+/* css cursor properties */
+
+/* .alias {cursor: alias;}
+.all-scroll {cursor: all-scroll;}
+.auto {cursor: auto;}
+.cell {cursor: cell;}
+.context-menu {cursor: context-menu;}
+.col-resize {cursor: col-resize;}
+.copy {cursor: copy;}
+.crosshair {cursor: crosshair;}
+.default {cursor: default;}
+.e-resize {cursor: e-resize;}
+.ew-resize {cursor: ew-resize;}
+.grab {cursor: -webkit-grab; cursor: grab;}
+.grabbing {cursor: -webkit-grabbing; cursor: grabbing;}
+.help {cursor: help;}
+.move {cursor: move;}
+.n-resize {cursor: n-resize;}
+.ne-resize {cursor: ne-resize;}
+.nesw-resize {cursor: nesw-resize;}
+.ns-resize {cursor: ns-resize;}
+.nw-resize {cursor: nw-resize;}
+.nwse-resize {cursor: nwse-resize;}
+.no-drop {cursor: no-drop;}
+.none {cursor: none;}
+.not-allowed {cursor: not-allowed;}
+.pointer {cursor: pointer;}
+.progress {cursor: progress;}
+.row-resize {cursor: row-resize;}
+.s-resize {cursor: s-resize;}
+.se-resize {cursor: se-resize;}
+.sw-resize {cursor: sw-resize;}
+.text {cursor: text;}
+.url {cursor: url(myBall.cur),auto;}
+.w-resize {cursor: w-resize;}
+.wait {cursor: wait;}
+.zoom-in {cursor: zoom-in;}
+.zoom-out {cursor: zoom-out;} */
+
+
+/* css object-fit properties */
+
+/*  fill / contain / cover / scale-down / none */
+
+
+img{
+    object-fit: cover;
+    object-position: top;
+}
+
+
+
+
+
