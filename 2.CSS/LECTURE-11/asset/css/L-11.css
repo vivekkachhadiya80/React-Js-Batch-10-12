@@ -5,34 +5,51 @@ body{
   margin: 0;
 }
 
+/* Css Icons */
 
 /************ css overlay ***********/
 
 .maindiv{
+  display: flex;
+  position: relative;
   height: 500px;
   width: 500px;
   overflow: hidden;
-  position: relative;
 }
+
+/* .box-1{
+  height: 100px;
+  width: 100px;
+  background-color: purple;
+  position: absolute;
+}
+.box-2{
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  position: absolute;
+  opacity: 0.4;
+} */
 
 img{
+  position: absolute;
   object-fit: cover;
   object-position:right;
+}
+span{
   position: absolute;
+  height: inherit;
+  width: inherit;
 }
-
-.overlay{
+.text{
   position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color:  rgba(233, 233, 233, 0.5);
-  z-index: 10;
+  color:white
 }
 
-.overlay:hover{
-  background-color:rgba(255, 0, 0, 0.371);
+.maindiv:hover span{
+  background-color: black;
+  opacity: 0.5;
 }
-
 
 /******* css value and units *******/
 
