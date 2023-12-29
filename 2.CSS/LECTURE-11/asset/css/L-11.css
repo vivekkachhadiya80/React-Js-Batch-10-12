@@ -1,7 +1,8 @@
-*{
+* {
   box-sizing: border-box;
 }
-body{
+
+body {
   margin: 0;
 }
 
@@ -9,13 +10,7 @@ body{
 
 /************ css overlay ***********/
 
-.maindiv{
-  display: flex;
-  position: relative;
-  height: 500px;
-  width: 500px;
-  overflow: hidden;
-}
+
 
 /* .box-1{
   height: 100px;
@@ -31,45 +26,162 @@ body{
   opacity: 0.4;
 } */
 
-img{
+/* .maindiv {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  overflow: hidden;
+}
+
+img {
   position: absolute;
   object-fit: cover;
-  object-position:right;
+  object-position: right;
 }
-span{
+
+.overlay {
+  position: absolute;
+  display: inline-block;
+  height: inherit;
+  width: inherit;
+  z-index: 1;
+}
+
+.text{
   position: absolute;
   height: inherit;
   width: inherit;
+  left: 0;
+  text-align: center;
 }
-.text{
+.text span{
   position: absolute;
-  color:white
+  height: inherit;
+  width: inherit;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-size: 50px;
+  z-index: 10;
+  bottom: 0;
+  animation-duration: 2s;
+  opacity: 0;
+  backdrop-filter: blur(2px);
 }
 
-.maindiv:hover span{
+.text-2{
+  position: absolute;
+  height: inherit;
+  width: inherit;
+  left: 0;
+  text-align: center;
+}
+
+.text-2 span{
+  position: absolute;
+  height: inherit;
+  width: inherit;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-size: 50px;
+  z-index: 10;
+  bottom: 0;
+  animation-duration: 2s;
+  opacity: 0;
+  backdrop-filter: blur(2px);
+}
+
+.maindiv:hover .overlay {
   background-color: black;
   opacity: 0.5;
 }
+.maindiv:hover .text span{
+  animation-name: move-flip-1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.maindiv:hover .text-2 span{
+  animation-name: move-flip-2;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move-flip-1{
+  0%{
+    transform: translateY(500px);
+    opacity: 0.4;
+  }
+  20%{
+    transform: translateY(400px);
+    opacity: 0.4;
+  }
+  40%{
+    transform: translateY(300px);
+    opacity: 0.6;
+  }
+  60%{
+    transform: translateY(200px);
+    opacity: 0.4;
+  }
+  80%{
+    transform: translateY(100px);
+    opacity: 0.2;
+  }
+  100%{
+    transform: translate(0px);
+    opacity: 0;
+  }
+}
+
+@keyframes move-flip-2{
+  0%{
+    transform: translateY(500px);
+    opacity: 0;
+  }
+  20%{
+    transform: translateY(400px);
+    opacity: 0;
+  }
+  40%{
+    transform: translateY(300px);
+    opacity: 0;
+  }
+  60%{
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  80%{
+    transform: translateY(100px);
+    opacity: 0.8;
+  }
+  100%{
+    transform: translate(0px);
+    opacity: 1;
+  }
+} */
 
 /******* css value and units *******/
 
-.para{
+/* .para{
   font-size: 200%;
 }
 
 p{
   font-size: 48px;
-}
-   
+} */
+
 /**** css background blend mode  ****/
 
-.back{
+/* .back{
   height: 100vh;
   background-image:url("../image/pexels-luis-del-río-15286.jpg") , url("../image/earth.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode:soft-light;
-}
-
+} */
 
 
