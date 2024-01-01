@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
   box-sizing: border-box;
 }
@@ -215,17 +214,12 @@ img {
 p{
   font-size: 48px;
 } */
-<<<<<<< HEAD
-   
+
 /**** css background blend mode  ****/
-/* 
-.back{
-=======
 
 /**** css background blend mode  ****/
 
 /* .back{
->>>>>>> 1031a4b73f2622f36207b9c80329be1479deda93
   height: 100vh;
   background-image:url("../image/pexels-luis-del-río-15286.jpg") , url("../image/earth.jpg");
   background-size: cover;
@@ -406,8 +400,4 @@ p{
     transform: translateY(0px);
   }
 }
-=======
-} */
 
-
->>>>>>> 1031a4b73f2622f36207b9c80329be1479deda93
