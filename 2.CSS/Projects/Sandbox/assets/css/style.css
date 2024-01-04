@@ -18,7 +18,7 @@ ul , ol {
 /* Sandbox start */
 
 .container{
-    max-width: 1100px;
+    max-width: calc(100% - 10%);
     /* border:1px solid black; */
     margin: auto;
 }
@@ -43,7 +43,9 @@ ul , ol {
     color:rgba(0, 0, 0, 0.737)
 }
 
-
+.social-icons{
+    display: flex;
+}
 .social-icons ul li{
     padding: 0px 8px;
 }
@@ -97,4 +99,5 @@ ul , ol {
 .solution-image img{
     max-width: 550px;
 }
+
 
