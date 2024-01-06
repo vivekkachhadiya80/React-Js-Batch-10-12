@@ -1,4 +1,4 @@
-/* @media (max-width:1200px) {
+@media (max-width:1200px) {
     .menu-icon {
         display: none;
     }
@@ -12,8 +12,27 @@
     .nav-items {
         display: none;
     }
+    .solution-text h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .solution-text p{
+        font-size: 22px;
+    }
 }
 
-@media (max-width:768px) {}
+@media (max-width:768px) {
+    .solution-text{
+        width: 100%;
+        text-align: center;
+    }
+    .solution-image{
+        width: 100%;
+    }
+    .solution-text{
+        margin-bottom: 50px;
+    }
+}
 
-@media (max-width:576px) {} */
+@media (max-width:576px) {
+}
